@@ -13,6 +13,11 @@ class Home extends StatelessWidget {
       child: MaterialApp(
         home: Products(),
         debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+          primaryColor: Color.fromRGBO(255,199,44,1)
+
+
+        ),
       ),
     );
   }
